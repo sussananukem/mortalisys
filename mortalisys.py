@@ -32,7 +32,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\sussa\OneDrive\Desktop\VA\MortaliSys\Dashboard")
+    # os.chdir(r"C:\Users\sussa\OneDrive\Desktop\VA\MortaliSys\Dashboard")
     df = pd.read_csv("clinical_data.csv", encoding = "ISO-8859-1")
 
 
